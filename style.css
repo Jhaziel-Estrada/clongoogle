@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body{
+    font-family: 'Arial' sans-serif;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+header{
+    height: 48px;
+    margin: 0;
+    padding: 6px 6px 6px 6px;
+}
+
+#barratop{
+    display: flex;
+    padding: 0 4px 0 0px;
+    justify-content: flex-end;
+    height: 48px;
+    align-items: center;
+
+}
+
+#cajabh{
+    padding: 0 15px 0 0;
+    display: flex;
+}
+
+.botonh{
+    padding: 0 0 0 15px;
+    font-family: 'Arial';
+    font-size: 13px;
+}
+
+#cajai{
+    display: flex;
+    vertical-align: middle;
+}
+
+#apps{
+    padding: 4px;
+    width: 40px;
+    height: 40px;
+    background: #dadce0;
+    border-radius: 5px;
+
+}
+
+#acceder{
+    height: 16px;
+    margin: 0 8px 0 8px;
+    padding: 9px 23px;
+    border: 1px transparent;
+    background: #1a73e8;
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 14px;
+    vertical-align: middle;
+    margin: auto 8px auto 8px;
+}
+
+#logo{
+    display: block;
+    align-items: center;
+}
+img{
+    display: block;
+    height: 92px;
+    width: 272px;
+    border: 1px black;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#barrabusca{
+    padding: 20px 20px 18px 20px;
+}
+
+#input-search{
+    width: 584px;
+    height: 44px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 25px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+}
+
+#centro{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn_search{
+    display: inline-block;
+    height: 36px;
+    line-height: 35px;
+    min-width: 54px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    border: 1px solid #f8f9fa;
+    background-color: #f8f9fa;
+    text-align: center;
+    font-family: 'Arial';
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+#search:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    border: 1px solid #dadce0;
+}
+
+#lucky:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    border: 1px solid #dadce0;
+}
+
+#input-search:hover{
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #f8f9fa;
+    padding: 0 20px;
+    border-top: 1px solid #dadce0;
+    margin-top: auto;
+}
+
+.lf{color: #70757a;
+    padding: 15px;
+    font-family: 'Arial',sans-serif;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.lf:hover{
+    text-decoration: underline ;
+}
+
+button{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
